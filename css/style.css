@@ -1,0 +1,98 @@
+html{
+    font-family: "Nunito", sans-serif;
+}
+.bars-icon{
+    width: 30px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* navegação */
+nav{
+    background-color: #011627;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    height:100px;
+    width:100%;
+}
+nav label{
+    position: absolute;
+    top:30px;
+    right:20px;
+}
+input[type=checkbox]{
+    display: none;
+}
+ul{
+    background-color:#ff9f1c;
+    position: absolute;
+    top:80px;
+    right: 0px;
+    padding: 20px;
+    display: none;
+}
+#menu:checked ~ ul{
+    display:block;
+}
+ul li{
+    padding:20px;
+}
+ul li a{
+    font-size:1.5em;
+    display: block;
+    color:#ffff;
+}
+nav h1{
+    margin:30px 20px;
+    color:#ffff;
+}
+/* container */
+.container{
+    width:100%;
+}
+.text{
+    padding:20px 10px;
+    text-align:center;
+    top:100px;
+    height: 100vh;
+}
+main{
+    background-color: #2ec4b6;
+    height: 100vh;
+}
+.text-sec{
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+main h1{
+    color:white;
+    font-size:3.0em;
+}
+main p{
+    font-size: 1.3em;
+    color:white;
+}
+#sobre{
+    background-color: #e71d36;
+    color:white;
+}
+#sobre img{
+    width:80%;
+}
+#sobre h2{
+    position: relative;
+    bottom: 20px;
+    font-size: 2.0em;
+}
+#sobre p{
+    position: relative;
+    top: 50px;
+    font-size: 1.2em;
+}
+

@@ -110,7 +110,7 @@ h2{
 /*  */
 #servicos .servicos{
     margin:20px 0px;
-    width:50%;
+    width:70%;
     height:200px;
     border:1px solid white;
     border-radius: 5px;
@@ -219,5 +219,6 @@ span.icon-zap{
     right:10px;
     bottom: 50px;
     padding:10px;
+    cursor: pointer;
     border-radius: 100%;
 }

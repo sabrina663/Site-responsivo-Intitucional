@@ -152,14 +152,14 @@ h2{
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.952);   
     padding:30px;
-    width:90%;
+    width:80%;
     color:#011627;
 }
 .client blockquote::after{
     content: '\201d';
 }
 .client blockquote::before{
-    content: '\201c';
+    content: '\201c'
 }
 /* comunicacao */
 .comunicacao{

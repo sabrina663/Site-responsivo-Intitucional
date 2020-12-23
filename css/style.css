@@ -222,3 +222,57 @@ span.icon-zap{
     cursor: pointer;
     border-radius: 100%;
 }
+/* telas maiores */
+@media screen and (min-width:700px){
+    /* navegação  */
+    nav ul{
+        background-color:#011627;;
+        display:block;
+        top:15px;
+        right:20px;
+        display: flex;
+        padding:0px;
+    }
+    nav ul li{
+        padding: 0%;
+    }
+    nav ul a{
+        font-size:1.0em;
+        padding:10px;
+    }
+    nav ul a:hover{
+        background-color: #e71d36;
+        color:#011627;
+        border-radius: 10px 30px;
+        font-weight: bold;
+    }
+    nav i.bars-icon{
+        display: none;
+    }
+    main{
+        background-image: url(../img/banner.jpg);
+        background-size:cover;
+        background-position: center;
+    }
+    main .text-sec{
+        border-radius: 10px 50px;
+        padding:10px 20px;
+        background-color: rgba(211, 210, 210, 0.753);
+        color:black;
+        position: relative;
+        animation:text-animation 3s 3s 1;
+    }
+    @keyframes text-animation{
+        from{
+            left:-500px;
+        }
+        to{
+            left:500px;
+        }
+    }
+    /* sobre */
+    #sobre p{
+        margin-top:15px;
+        font-size:0.9em;
+    }
+}

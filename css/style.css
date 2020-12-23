@@ -1,8 +1,9 @@
 html{
     font-family: "Nunito", sans-serif;
+    color:white;
 }
-.bars-icon{
-    width: 30px;
+i{
+    font-size:2.0em;
 }
 ul{
     list-style: none;
@@ -48,7 +49,6 @@ ul li a{
 }
 nav h1{
     margin:30px 20px;
-    color:#ffff;
 }
 /* container */
 .container{
@@ -71,19 +71,16 @@ main{
     transform: translate(-50%,-50%);
 }
 main h1{
-    color:white;
     font-size:3.0em;
 }
 main p{
     font-size: 1.3em;
-    color:white;
 }
 #sobre{
     background-color: #e71d36;
-    color:white;
 }
 #sobre img{
-    width:80%;
+    width:70%;
 }
 #sobre h2{
     position: relative;
@@ -91,8 +88,34 @@ main p{
     font-size: 2.0em;
 }
 #sobre p{
-    position: relative;
-    top: 50px;
+    margin:50px 0px;
     font-size: 1.2em;
+    padding:20px 5px;
+}
+#servicos{
+    background-color:#2ec4b6;
+    color:#011627;
 }
 
+#servicos h2{
+    font-size:1.5em;
+}
+#servicos p.text-serv{
+    margin:10px 0px;
+    font-size:1.0em;
+}
+#servicos .servicos{
+    width: 50%;
+    margin:40px 0px;
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.952);
+    padding: 20px 5px;
+}
+.servicos h3{
+    font-size: 1.0em;
+}
+.servicos p{
+    font-size:0.5em;
+    color:#011627;
+}

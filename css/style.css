@@ -1,6 +1,6 @@
 html{
     font-family: "Nunito", sans-serif;
-    /* color:white; */
+    color:white;
 }
 i{
     font-size:2.0em;
@@ -97,25 +97,29 @@ main p{
     background-color:#2ec4b6;
     color:#011627;
     height:1230px;
-    display: flex;
-    justify-content: center;
-    padding:50px 0px;
+    padding:50px 70px;
 }
-#servicos h2{
+/* padrão */
+h2{
     font-size:1.5em;
 }
-.serv p.text-serv{
-    margin:30px 0px;
-    font-size:1.0em;
+.text-info{
+    margin:15px 0px;
+    font-size:1.2em;
 }
+/*  */
 #servicos .servicos{
-    margin:40px 0px;
-    width:90%;
+    margin:20px 0px;
+    width:50%;
     height:200px;
     border:1px solid white;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.952);
     padding: 20px 10px;
+    display:inline-block;
+}
+.span-ib{
+    display:inline-block;
 }
 .servicos h3{
     font-size: 1.0em;
@@ -134,14 +138,86 @@ main p{
 /*  */
 #clientes{
     background-color: #e71d36;
+    padding: 50px 0px;
+    height:1000px;
 }
+
 .client .img-people{
     width:50%;
-    border-radius:50%;
+    border-radius:10px 400px;
 }
 .client{
-    margin:30px;
-    background-color: blue;
+    margin:20px 0px;
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.952);   
     padding:30px;
-    width:40%;
+    width:50%;
+    color:#011627;
+}
+.client blockquote::after{
+    content: '\201d';
+}
+.client blockquote::before{
+    content: '\201c';
+}
+/* comunicacao */
+.comunicacao{
+    background-color: #302f2f;
+    text-align: center;
+    height: 350px;
+}
+.comunicacao section{
+    padding:20px 0px;
+}
+.comunicacao .area-cont{
+    padding:10px 20px;
+    margin-top:10px; 
+    display:block;
+}
+.comunicacao .area-cont label{
+    font-size:1.0em;
+    font-weight:bold;
+}
+.area-cont a{
+    color: white;
+}
+/*  */
+.sec-rd{
+    border-top:1px solid gray;
+    margin-top:15px;
+}
+.sec-rd span{
+    cursor: pointer;
+    margin-left:20px;
+    margin-top:10px;
+    display: inline-block;
+    
+}
+.sec-rd div{
+    margin-top:40px;
+}
+.sec-rd div a{
+    color:white;
+    text-decoration: underline;
+    page-break-after: auto;
+}
+/* footer */
+.end-page{
+    background-color: #011627;
+    text-align: center;
+    padding: 25px 0px;
+}
+footer{
+    font-size: 0.7em;
+}
+/* icon zap */
+span.icon-zap{
+    background-color: #26D366;
+    position: fixed;
+    z-index:1;
+    right:10px;
+    bottom: 50px;
+    padding:10px;
+    border-radius: 100%;
 }

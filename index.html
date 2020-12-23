@@ -25,6 +25,9 @@
         </ul>
     </nav>
     <div class="container">
+        <span class='icon-zap'>
+            <i class="fab fa-whatsapp"></i>
+        </span>
         <main id='home' class="text">
             <div class="text-sec">
                 <h1>Lorem ipsum</h1>
@@ -34,78 +37,97 @@
         <section id='sobre' class="text">
             <div class="text-sec">
                 <h2>Lorem ipsum</h2>
-                <img src='img/img_sobre.jpg'>
+                <img title="imagem" src='img/img_sobre.jpg' alt='Empresa'>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus eum, consequatur, quos, ullam praesentium sapiente hic aliquid eius odio fugit accusamus nulla doloribus quia dolor? Dolores, distinctio harum. Animi, illum.</p>
             </div>
         </section><!-- sobre -->
         <section id='servicos' class="text">
             <div class="serv">
                 <h2>Lorem ipsum dolor.</h2>
-                <p class='text-serv'>Lorem ipsum dolor sit amet consectetur.</p>
-                <div class="servicos">
+                <p class='text-info'>Lorem ipsum dolor sit amet consecteturipsum dolor sit amet consectetur.</p>
+                <span class="span-ib servicos">
                     <i class=" icon-serv fas fa-cogs"></i>
                     <h3>Lorem ipsum dolor</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     <a href='#'>Ver mais</a>
-                </div>
-                <div class="servicos">
+                </span>
+                <span class="span-ib servicos">
                         <i class="icon-serv fas fa-thumbs-up"></i>
                         <h3>Lorem ipsum dolor</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     <a href='#'>Ver mais</a>
-                </div>
-                <div class="servicos">
+                </span>
+                <span class="span-ib servicos">
                         <i class="icon-serv fas fa-compass"></i>
                         <h3>Lorem ipsum dolor</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <a href='#'>Ver mais</a>
-                </div>
-                <div class="servicos">
+                </span>
+                <span class="span-ib servicos">
                         <i class="icon-serv fas fa-rocket"></i>
                         <h3>Lorem ipsum dolor</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <a href='#'>Ver mais</a>
-                </div>
+                </span>
             </div><!-- text-sec -->
         </section><!-- servicos -->
         <section id='clientes' class="text">
             <div class="client-collumn">
                 <h2>Lorem ipsum dolor.</h2>
-                <p class='text-serv'>Lorem ipsum dolor sit amet consectetur.</p>
-                <div class="client">
-                        <img class='img-people' src="img/people1.jpg">
-                        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</blockquote>
-                        <cite>people</cite>
-                </div>
-                <div class="client">
-                        <img class='img-people' src="img/people2.jpg">
-                        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</blockquote>
-                        <cite>people</cite>
-                </div>
-                <div class="client">
-                        <img class='img-people' src="img/people3.jpg">
-                        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</blockquote>
-                        <cite>people</cite>
-                </div>
+                <p class='text-info'>Lorem ipsum dolor sit amet consecteturipsum dolor sit amet consectetur.</p>
+                <span class="span-ib client">
+                    <img title="cliente" class="img-people" src="img/people1.jpg">
+                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</blockquote>
+                    <cite>People1</cite>
+                </span>
+                <span class="span-ib client">
+                    <img title="cliente" class="img-people" src="img/people2.jpg">
+                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</blockquote>
+                    <cite>People2</cite>
+                </span>
+                <span class="span-ib client">
+                    <img title="cliente" class="img-people" src="img/people3.jpg">
+                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</blockquote>
+                    <cite>People3</cite>
+                </span>
+                
             </div><!-- text-sec -->
-        </section><!-- servicos -->
-        <section id='contato' class="text">
-            <label for='number'>Contato</label>
-            <a href='tel:+5599999999999'>(99)99999-9999</a>
-            <label for='mail'>Email</label>
-            <a href='mailto:example@gmail.com'>example@gmail.com</a>
-            <label for='zap'>Whatsapp</label>
-            <a href='tel:+5599999999999'>Whatsapp</a>
-            
-        </section><!-- section -->
-        <section id='redesocias' class="text">
-            <p>facebook</p>
-            <p>Instagram</p>
-            <p>Linkedin</p>
-            <p>Twitter</p>
-        </section>
+        </section><!-- clientes -->
+        <div id='contato' class="comunicacao">
+            <section>
+                <span  class="area-cont">
+                    <label for='number'>Tel:</label>
+                    <a href='tel:+5599999999999'>+55 (99)99999-9999</a>
+                </span>
+                <span  class="area-cont">
+                    <label for='mail'>Email:</label>
+                    <a href='mailto:example@gmail.com'>example@gmail.com</a>
+                </span>
+                <span  class="area-cont">
+                    <label for='zap'>Whatsapp:</label>
+                    <a href='tel:+5599999999999'>+55 99 99999-9999</a>
+                </span><!-- section -->
+            </section>
+            <section id='redesocias' class="sec-rd">
+                <span>
+                    <i title="Facebook" class="fab fa-facebook"></i>
+                </span>
+                <span>
+                    <i title="Instagram" class="fab fa-instagram"></i>
+                </span>
+                <span>
+                    <i title="Twitter" class="fab fa-twitter"></i>
+                </span>
+                <span>
+                    <i title="Linkedin" class="fab fa-linkedin"></i>
+                </span>
+                <div>
+                    <p>Voltar pra <a href='#home'>Home</a></p>
+                </div>
+            </section>
+        </div><!-- comunicacao -->
     </div><!-- container -->
-    <div>
+    <div class="end-page">
         <footer>&copy Todos os direitos reservados</footer>
     </div>
 </body>

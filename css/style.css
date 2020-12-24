@@ -96,7 +96,6 @@ main p{
 /*  */
 #servicos{
     background-color:#2ec4b6;
-    color:#011627;
     height:100%;
     padding:50px 70px;
 }
@@ -120,13 +119,13 @@ h2{
 }
 .span-ib{
     display:inline-block;
+    color:#011627;
 }
 .servicos h3{
     font-size: 1.0em;
 }
 .servicos p{
     font-size:0.8em;
-    color:#011627;
     margin:40px 0px;
 }
 .servicos a{
@@ -134,6 +133,9 @@ h2{
     padding:10px;
     border-radius:5px;
     color: white;
+}
+.servicos a:hover{
+    background-color: #c72c3e;
 }
 /*  */
 #clientes{
@@ -221,6 +223,10 @@ span.icon-zap{
     padding:10px;
     cursor: pointer;
     border-radius: 100%;
+    transition: padding 1s;
+}
+span.icon-zap:hover{
+    padding:12px;
 }
 /* telas maiores */
 @media screen and (min-width:700px){
@@ -271,8 +277,57 @@ span.icon-zap{
         }
     }
     /* sobre */
+    #sobre{
+        padding:0;
+    }
+    #sobre img{
+        border:1px solid white;
+        transition:width 1s;
+    }
+    .flex{
+        display: flex;
+
+    }
+    #sobre div .align{
+        position: relative;
+        left:-50px;
+        top:10px;
+    }
     #sobre p{
-        margin-top:15px;
-        font-size:0.9em;
+        position: relative;
+        top:30px;
+        left:-90px;
+        text-align:left;
+        font-size: 1.3em;
+    }
+    /* servico */
+    #servicos{
+        height:100vh;padding: 20px 0px;
+
+    }
+    p.text-info{
+        padding:30px 0px;
+    }
+    #servicos .serv .servicos{
+        width:20%;margin-left:5px;
+    }
+    #servicos .serv{
+        padding: 40px 0px;
+        position: relative;
+        top:50%;
+        transform: translateY(-50%);
+    }
+    /* clientes */
+    #clientes{
+        height:100vh
+    }
+    #clientes .client-collumn{
+        position: relative;
+        top:50%;
+        transform: translateY(-50%);
+    }
+    #clientes .client{
+        width:20%;
+        margin-left:5px;
     }
 }

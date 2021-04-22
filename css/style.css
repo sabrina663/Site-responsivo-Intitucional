@@ -1,4 +1,4 @@
-html{
+﻿html{
     font-family: "Nunito", sans-serif;
     color:white;
 }
@@ -13,7 +13,7 @@ a{
 }
 /* navegação */
 nav{
-    background-color: #011627;
+    background-color: #082f52;
     display: flex;
     position: fixed;
     z-index: 1;
@@ -29,7 +29,7 @@ input[type=checkbox]{
     display: none;
 }
 ul{
-    background-color:#ff9f1c;
+    background-color:#f39613;
     position: absolute;
     top:80px;
     right: 0px;
@@ -53,6 +53,7 @@ nav h1{
 /* container */
 .container{
     width:100%;
+    margin:0 auto;
 }
 .text{
     padding:20px 10px;
@@ -61,7 +62,7 @@ nav h1{
     height: 100vh;
 }
 main{
-    background-color: #2ec4b6;
+    background-color: #1f998d;
     height: 100vh;
 }
 .text-sec{
@@ -77,7 +78,7 @@ main p{
     font-size: 1.3em;
 }
 #sobre{
-    background-color: #e71d36;
+    background-color: #a81223;
     padding: 50px 0px;
 }
 #sobre img{
@@ -95,7 +96,7 @@ main p{
 }
 /*  */
 #servicos{
-    background-color:#2ec4b6;
+    background-color:#1f998d;
     height:100%;
     padding:50px 70px;
 }
@@ -137,9 +138,9 @@ h2{
 .servicos a:hover{
     background-color: #c72c3e;
 }
-/*  */
+/* clientes*/
 #clientes{
-    background-color: #e71d36;
+    background-color: #a81223;
     padding: 50px 0px;
     height:100%;
 }
@@ -232,7 +233,7 @@ span.icon-zap:hover{
 @media screen and (min-width:700px){
     /* navegação  */
     nav ul{
-        background-color:#011627;;
+        background-color:transparent;
         display:block;
         top:15px;
         right:20px;
@@ -244,7 +245,7 @@ span.icon-zap:hover{
     }
     nav ul a{
         font-size:1.0em;
-        padding:10px;
+        padding:15px;
     }
     nav ul a:hover{
         background-color: #e71d36;
@@ -256,15 +257,17 @@ span.icon-zap:hover{
         display: none;
     }
     main{
+        background-color: none;
         background-image: url(../img/banner.jpg);
         background-size:cover;
         background-position: center;
     }
     main .text-sec{
-        border-radius: 10px 50px;
-        padding:10px 20px;
-        background-color: rgba(211, 210, 210, 0.753);
-        color:black;
+        border-radius:5px;
+        width:100%;
+        padding:20px 25px;
+        background-color: rgba(211, 210, 210, 0.295);
+        color:rgb(34, 33, 33);
         position: relative;
         animation:text-animation 3s 3s 1;
     }
